@@ -36,7 +36,11 @@ function addNewPerson(name,age,city){
 
     })
 }
+
+
 exports=module.exports={
     getAllPersons,
-    addNewPerson
+    addNewPerson,
+    
+    
 }
