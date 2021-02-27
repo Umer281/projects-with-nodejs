@@ -1,0 +1,97 @@
+#profile{ 
+     background-color:grey;
+     height: 200px;
+     padding: 20px;
+    margin-left: 40px;
+    margin-top: 20px;
+    
+}
+.profile_pic{ 
+    margin: 0;
+    position: absolute;
+    /* bottom: 10px;  */
+    
+    
+}
+
+.btn_pro {
+    margin: 0;
+    position: absolute;
+    margin-top: 20px;
+    left: 30%;
+    
+  }
+#btn_inside{ 
+    float: right;
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
+#about{ 
+    background-color:wheat;
+    /* text-decoration: underline; */
+    height: 120px;
+    margin-top: 50px;
+    padding: 5px;
+
+}
+
+.heading{ 
+    text-align: center;
+   /* text-decoration: underline; */
+    
+    font-weight: normal;
+}
+
+/* below id selected is for plus */
+#plus{ 
+    align-self:center;
+    height: 30px;
+}
+
+
+
+#achievements{ 
+
+    background-color: white;
+    margin-left: 20px;
+    padding: 10px;
+
+}
+
+#custom{ 
+
+    text-align: center;
+    text-decoration: underline;
+}
+.image img{ 
+    width: 100%;
+}
+.cards{ 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+   margin-top: 5px;
+   margin-bottom: 10px;
+   padding: 10px;
+  text-align: center;
+  background-color: gainsboro;
+}
+
+.cards:hover{ 
+    transform: translate(5px,5px);
+}
+
+#interest{ 
+
+    padding: 10px;
+}
+
+#hobbies{ 
+    background-color: cadetblue;
+}
+
+.btn_pro:active{ 
+    transform: translate(-5px,-5px);
+}
+
+#btn_inside:active{ 
+    transform: translate(-2px,-2px);
+}
